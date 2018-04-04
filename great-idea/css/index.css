@@ -25,6 +25,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -64,114 +65,125 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 15px;
 }
 
-/* container */
-
-.class container {
-display: flex;
-justify-content:;
-}
-
-/* header nav */
+/* header */
 
 header nav {
-display: flex;
-justify-content: flex-start;
-align-items:;
-flex-direction:;
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
 }
 
 header nav a {
-display: flex;
-justify-content: flex-start;
-align-items:;
-font-size: 14px;
-color: gray;
+  display: flex;
+  color: gray;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 20px 50px 20px 50px;
 }
-
-header nav a:hover {
-text-decoration: underline;
-}
-
-header nav a:first-child {
-margin-left: 0;
-}
-
-header nav a:first-child {
-margin-right: 0;
-}
-
-/* header logo */
 
 header .logo {
-display: flex;
-justify-content: flex-end;
-align-content:;
-flex-wrap:;
+  display: flex;	
+}
+
+.container header {
+  display: flex;
+  justify-content: flex-end; 	
 }
 
 /* cta */
 
-.cta .cta-text {
-display: flex;
-font-size: 77px;
-justify-content: center;
+.cta .cta-text h1 {
+  display: flex;
+  font-size: 90px;
+  margin-top: 100px;
+  margin-left: 200px;
+  width: 500px;
+  justify-content: center;
+  text-align: center;
 }
 
 .cta .cta-text button {
-background: white;
-font-size: 17px;
-display: flex;
-justify-content:;
-align-items:;
-}
-
-.cta .cta-text button:hover {
-background: black;
-color: white;
+  display: flex;
+  font-size: 20px;
+  margin-left: 350px;
+  background: white;
+  padding: 10px 40px 10px 40px; 
 }
 
 .cta img {
-display: flex;
+  padding: 80px 80px 80px 50px;	
 }
 
-/* main content */
-
-.main-content {
-display: flex;
+.cta {
+  display: flex;	
 }
+
+/* main-content */
 
 .main-content .top-content {
+  display: flex;
+  margin-top: 50px; 
+  border-top: 1px solid;
+  margin-right: 50px;
+  margin-left: 80px;
+  width: 1130px;
 }
 
-.main-content .top-content .text-content {
-display: flex
+.main-content .top-content .text-content h4 {
+  display: flex;
+  margin-top: 30px;
 }
 
-.main-content .top-content .text-content:last-child {
-margin-right: 0;
+.main-content .top-content .text-content p {
+  display: flex; 
 }
 
 .main-content .middle-img {
-display: flex;
+  display: flex;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 1130px;
+  height: 200px;	  
+}
+
+.main-content .bottom-content .text-content h4 {
+  display: flex;
+  margin-top: 30px;  
+}
+
+.main-content .bottom-content .text-content p {
+  display: flex;
 }
 
 .main-content .bottom-content {
+  display: flex;
+  margin-top: 50px; 
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 80px;
+  width: 1130px;
+  border-bottom: 1px solid;
+  padding: 0px 0px 30px 0px;
 }
 
-.main-content .bottom-content .text-content {
-width: 275px;
-display: flexbox
-}
+/* contact */
 
-.contact {
-display: flex;
+.contact h4 {
+  display: flex;
+  margin-left: 80px;
 }
 
 .contact p {
-display: flex;
+  display: flex;
+  margin-left: 80px;
+  padding: 0px 0px 20px 0px;
 }
+
+/* footer */
 
 footer {
-display: flex;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-
